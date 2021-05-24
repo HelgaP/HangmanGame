@@ -1,0 +1,33 @@
+Questions:
+- how to center horizontally a texLabel at a runtime? (It can be of different size based on what was randomly chosen from a dictionary)
+
+What I learnt from building this app:
+- button is the only object without autoresizing unlike labels and textfield
+- better design app on the smallest size device and make auto resizing. Otherwise, it won't look good on iphone SE or 8
+- it's possible to use both swift and objective c files within the same project. But I still haven't practised it
+- collection in a db can store only one type of data. One collection for books, one for users, etc
+- there is a thing like testing API connection
+- "?" is the start of the queryString which contains data to be send to a server from a client. (in my case random=true) But if I want to send a big potion of data to a server, I need to send it via HTTP body and POST method. 
+- completion handler: function will call closure when it's done with executing. Basically, it means that completion handlers are executed synchronously? 
+- how to read data form text file included in a bundle
+- how to separate string into array with a separator
+- completion in caller function calls closure/completion handler 
+- request is used in datatask when we need to pass some data (in the form oh headers) to a server (like api key)
+
+
+ViewDidLoad started
+Got inside create function
+Starting dataTaskResume
+Finished dataTaskResume
+termsArray in a view controller is []
+Got inside closure of dataTask
+Got inside a do-block
+newterm's term is nil, definition Optional("a quantity of no importance"), synonim Optional("aught")
+
+ ViewDidLoad started
+Got inside create function
+Starting dataTaskResume
+Finished dataTaskResume
+Got inside closure of dataTask
+Got inside a do-block
+newterm's term is nil, definition Optional("a quantity of no importance"), synonim Optional("aught")
